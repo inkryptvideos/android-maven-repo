@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.inkryptvideos.android",
+    "module": "inkryptvideos-android",
+    "version": "2.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inkryptvideos-android-2.9.0.aar",
+          "url": "inkryptvideos-android-2.9.0.aar",
+          "size": 1227016,
+          "sha512": "515ab2ea31a139f1d9d8d698aa564f2c88eaf2b2df2c208e3a5717d927d9a765973ea39746128839aeb65d3e5f5ac795251e1b365b6771ae80f1fb98ca8b64e6",
+          "sha256": "0d9639c3dd84c77d23d2b70154055951f0b3695b8dcb41a692d3fad1a7bf7e23",
+          "sha1": "207d39dc79ff7ae3fd0b02d2ea88b4f7764303a1",
+          "md5": "ca404af12441eb6aa5432ad19f133b61"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-dash",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-datasource-okhttp",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inkryptvideos-android-2.9.0.aar",
+          "url": "inkryptvideos-android-2.9.0.aar",
+          "size": 1227016,
+          "sha512": "515ab2ea31a139f1d9d8d698aa564f2c88eaf2b2df2c208e3a5717d927d9a765973ea39746128839aeb65d3e5f5ac795251e1b365b6771ae80f1fb98ca8b64e6",
+          "sha256": "0d9639c3dd84c77d23d2b70154055951f0b3695b8dcb41a692d3fad1a7bf7e23",
+          "sha1": "207d39dc79ff7ae3fd0b02d2ea88b4f7764303a1",
+          "md5": "ca404af12441eb6aa5432ad19f133b61"
+        }
+      ]
+    }
+  ]
+}
