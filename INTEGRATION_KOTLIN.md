@@ -199,7 +199,7 @@ play different video using other Video ID and OTP pair.
 
 
 ### Player Controls
-See more available controls [here](PLAYER_APIS.md).
+See more available controls [here](PLAYER_API.md).
 
 ### Read More
 Using Java / Legacy Layout? Read more [here](INTEGRATION_JAVA.md).

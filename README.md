@@ -12,7 +12,7 @@ Using Kotlin? Read more [here](INTEGRATION_KOTLIN.md).
 Using Java / Legacy Layout? Read more [here](INTEGRATION_KOTLIN.md).
 
 ### Player Controls
-See more available controls [here](PLAYER_APIS.md).
+See more available controls [here](PLAYER_API.md).
 
 ### Sample App
 Please refer to [this project](https://github.com/inkryptvideos/android-sample-project)

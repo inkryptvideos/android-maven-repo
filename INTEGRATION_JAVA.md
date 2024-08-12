@@ -144,7 +144,7 @@ This concludes the basic example to incorporate minimal working example of Video
 play different video using other Video ID and OTP pair.
 
 ### Player Controls
-See more available controls [here](PLAYER_APIS.md).
+See more available controls [here](PLAYER_API.md).
 
 ### Read More
 Using Kotlin? Read more [here](INTEGRATION_KOTLIN.md).
